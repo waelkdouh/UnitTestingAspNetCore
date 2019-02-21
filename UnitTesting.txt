@@ -1,0 +1,18 @@
+Run the Unit-testing webapi solution
+
+Instead of creating fake service manually, we could’ve used one of the many mocking frameworks available. One of those frameworks is called Moq. You can get more information about it on the official GitHub 
+https://github.com/Moq/moq4/wiki/Quickstart
+
+
+When writing unit tests it is usually the practice to follow the AAA principle (Arrange, Act and Assert):
+
+Arrange – this is where you would typically prepare everything for the test, in other words, prepare the scene for testing (creating the objects and setting them up as necessary)
+
+Act – this is where the method we are testing is executed
+
+Assert – this is the final part of the test where we compare what we expect to happen with the actual result of the test method execution
+
+Test method names should be as descriptive as possible. In most of the cases, it is possible to name the method so that it is not even necessary to read the actual code to understand what is being tested.
+
+In the example we use the naming convention in which the first part represents the name of the method being tested, the second part tells us more about the testing scenario and last part is the expected result.
+
